@@ -1,0 +1,241 @@
+@charset "utf-8";
+
+/*********************************
+6. About
+*********************************/
+
+.about {
+  background: #ffffff;
+}
+.about .container {
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 100%;
+}
+.about .container .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.about .container .row > div[class^="col"] {
+  padding-left: 0;
+  padding-right: 0;
+}
+.about_image {
+  height: 100%;
+}
+.about_image img {
+  display: none;
+}
+.about_content {
+  padding-top: 92px;
+  padding-bottom: 86px;
+  padding-left: 112px;
+  padding-right: 100px;
+}
+.about_content_container {
+  max-width: 690px;
+}
+.about_title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #888888;
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-top: 13px;
+}
+.about_subtitle {
+  font-size: 16px;
+  font-weight: 500;
+  color: #b5b5b5;
+  margin-top: 3px;
+}
+.about_text {
+  margin-top: 44px;
+}
+.about_text p:not(:last-of-type) {
+  margin-bottom: 30px;
+}
+.about_button {
+  margin-top: 60px;
+}
+
+/*********************************
+7. Team
+*********************************/
+
+.team {
+  background: #ffffff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.team_large_row {
+  margin-top: 100px;
+}
+.team_large {
+  margin-bottom: 30px;
+}
+.team_large_content {
+  padding-top: 42px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 23px;
+}
+.team_large_name a {
+  font-size: 30px;
+  font-weight: 700;
+  color: #050505;
+  line-height: 1.2;
+}
+.team_large_name a:hover {
+  color: #ffa54b;
+}
+.team_large_title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffa54b;
+  text-transform: uppercase;
+  margin-top: 7px;
+}
+.team_large_text {
+  margin-top: 13px;
+}
+.team_large_history {
+  margin-top: 29px;
+}
+.team_large_history,
+.team_large_history a {
+  font-size: 16px;
+  font-weight: 700;
+  color: #161d4a;
+}
+.team_large_history span {
+  margin-right: 21px;
+}
+.team_large_history a:hover {
+  color: #ffa54b;
+}
+.team_small_row {
+  margin-top: 43px;
+}
+.team_small {
+  margin-bottom: 30px;
+}
+.team_small_image {
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+.team_small_image a {
+  display: block;
+  position: relative;
+  height: 100%;
+}
+.team_small_image > div {
+  position: absolute;
+  top: 8px;
+  left: -21px;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  line-height: 54px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffa54b;
+  background: #161d4a;
+  z-index: 1;
+}
+.team_small_image::after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(22, 29, 74, 0.75);
+  content: "";
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.team_small_image:hover::after {
+  visibility: visible;
+  opacity: 1;
+}
+.team_small_content {
+  padding-top: 30px;
+  padding-bottom: 24px;
+}
+.team_small_name a {
+  font-size: 24px;
+  font-weight: 700;
+  color: #050505;
+  line-height: 1.2;
+}
+.team_small_name a:hover {
+  color: #ffa54b;
+}
+.team_small_title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffa54b;
+  text-transform: uppercase;
+  margin-top: 8px;
+}
+.team_button {
+  margin-top: 40px;
+}
+
+/*********************************
+8. Testimonials
+*********************************/
+
+.testimonials {
+  padding-top: 99px;
+  padding-bottom: 75px;
+}
+.test_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(237, 240, 244, 0.9);
+}
+.testimonials_slider_container {
+  margin-top: 69px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.test_item {
+  padding-bottom: 22px;
+}
+.test_text p {
+  font-style: italic;
+}
+.test_image {
+  width: 59px;
+  height: 59px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 43px;
+}
+.test_name {
+  margin-top: 16px;
+}
+.test_name a,
+.test_name span {
+  font-size: 18px;
+  font-weight: 500;
+  color: #161d4a;
+}
+.test_name a:hover {
+  color: #ffa54b;
+}

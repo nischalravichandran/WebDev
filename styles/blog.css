@@ -1,0 +1,355 @@
+@charset "utf-8";
+
+/*********************************
+6. Blog
+*********************************/
+
+.blog {
+  background: #ffffff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.blog_post {
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.blog_post:hover {
+  box-shadow: 0px 16px 38px rgba(9, 9, 9, 0.33);
+}
+.blog_post:not(:last-child) {
+  margin-bottom: 59px;
+}
+.blog_post_date {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 75px;
+  height: 75px;
+  background: #ffffff;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.blog_post_date:hover {
+  background: #ffa54b;
+}
+.blog_post_date a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.blog_post_date a > div {
+  width: 100%;
+  height: 100%;
+}
+.blog_post_date a > div > div:first-of-type {
+  font-size: 36px;
+  color: #ffa54b;
+  font-weight: 500;
+  line-height: 0.75;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.blog_post_date:hover a > div > div:first-of-type {
+  color: #ffffff;
+}
+.blog_post_date a > div > div:last-of-type {
+  font-size: 12px;
+  color: #050505;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 0.75;
+  margin-top: 9px;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.blog_post_date:hover a > div > div:last-of-type {
+  color: #ffffff;
+}
+.blog_post_content {
+  background: #ffffff;
+  padding-top: 54px;
+  padding-left: 29px;
+  padding-bottom: 39px;
+  padding-right: 30px;
+}
+.tags ul li a {
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffa54b;
+  line-height: 1.2;
+}
+.blog_post_title {
+  margin-top: 1px;
+}
+.blog_post_title a {
+  font-size: 24px;
+  font-weight: 700;
+  color: #050505;
+  line-height: 1.2;
+}
+.blog_post_title a:hover {
+  color: #ffa54b;
+}
+.blog_post_text {
+  margin-top: 14px;
+  padding-right: 30px;
+}
+.page_nav_row {
+  margin-top: 45px;
+}
+.page_nav ul li {
+  width: 33px;
+  height: 33px;
+  background: transparent;
+  text-align: center;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.page_nav ul li.active,
+.page_nav ul li:hover {
+  background: #161d4a;
+}
+.page_nav ul li:not(:last-of-type) {
+  margin-right: 4px;
+}
+.page_nav ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 33px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #161d4a;
+}
+.page_nav ul li.active a,
+.page_nav ul li:hover a {
+  color: #ffffff;
+}
+
+/*********************************
+7. Sidebar
+*********************************/
+
+.sidebar {
+  width: 100%;
+  margin-top: -3px;
+  padding-bottom: 55px;
+}
+.sidebar_title h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #050505;
+  text-transform: uppercase;
+}
+.sidebar_subtitle {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffa54b;
+  line-height: 1.2;
+  margin-top: -5px;
+}
+
+/* Latest games */
+.latest_games_container {
+  margin-top: 49px;
+}
+.latest_games_container ul {
+  display: block;
+}
+.latest_games_container ul li {
+  display: block;
+  height: 110px;
+  background: #242b56;
+  padding-top: 16px;
+  padding-left: 10px;
+  padding-right: 9px;
+  padding-bottom: 19px;
+}
+.latest_games_container ul li:not(:last-of-type) {
+  margin-bottom: 3px;
+}
+.latest_games_score {
+  font-size: 30px;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 0.75;
+}
+.latest_games_teams {
+  margin-top: 5px;
+}
+.latest_games_teams > div {
+  width: 50%;
+  -webkit-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+.latest_games_teams > div:first-child .team_name {
+  margin-left: 8px;
+}
+.latest_games_teams > div:last-child .team_name {
+  margin-right: 8px;
+}
+.team_logo {
+  width: 36px;
+  height: 36px;
+}
+.team_logo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 36px;
+}
+.team_logo a img {
+  max-height: 100%;
+}
+.team_name a {
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 1.4;
+}
+.team_name a:hover {
+  color: #ffa54b;
+}
+.latest_games_date {
+  margin-top: -3px;
+}
+.latest_games_date a {
+  font-size: 11px;
+  font-weight: 500;
+  color: #737791;
+}
+
+/* Categories */
+.categories {
+  margin-top: 66px;
+}
+.categories_list {
+  margin-top: 46px;
+}
+.categories_list ul li:not(:last-of-type) {
+  margin-bottom: 12px;
+}
+.categories_list ul li a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #8c8c8c;
+}
+.categories_list ul li a:hover {
+  color: #ffa54b;
+}
+
+/* Latest Posts */
+.latest_posts {
+  margin-top: 58px;
+}
+.latest_posts_container {
+  margin-top: 52px;
+}
+.latest_post:not(:last-child) {
+  margin-bottom: 16px;
+}
+.latest_post_image {
+  width: 79px;
+  height: 79px;
+  -webkit-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+.latest_post_image a {
+  display: block;
+  height: 100%;
+}
+.latest_post_content {
+  padding-left: 20px;
+}
+.latest_post_date {
+  line-height: 1.2;
+}
+.latest_post_date a {
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffa54b;
+}
+.latest_post_title {
+  margin-top: 4px;
+}
+.latest_post_title a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #8c8c8c;
+  line-height: 1.6875;
+}
+.latest_post_title a:hover {
+  color: #ffa54b;
+}
+
+/* Tickets */
+.tickets {
+  width: 100%;
+  height: 459px;
+  margin-top: 68px;
+  padding-top: 23px;
+  padding-left: 22px;
+  padding-right: 23px;
+  padding-bottom: 27px;
+}
+.tickets_content {
+  width: 100%;
+  height: 100%;
+  border: solid 1px #ffa54b;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.tickets_button {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: 30px;
+  width: 141px;
+  height: 45px;
+}
+.tickets_button a {
+  font-size: 12px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 43px;
+}
+.tickets_title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #f73543;
+  margin-top: 29px;
+  line-height: 1.2;
+}
+.tickets_subtitle {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffa54b;
+  margin-top: 4px;
+  line-height: 1.2;
+}
+.tickets_logo {
+  width: 145px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 49px;
+}
