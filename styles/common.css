@@ -300,6 +300,37 @@ section {
   color: #ffffff;
   z-index: 1;
 }
+blockquote {
+  display: block;
+  border-width: 2px 0;
+  border-style: solid;
+  border-color: #eee;
+  padding: 2.5em 0 0.5em;
+  margin: 3.5em 0;
+  position: relative;
+  font-size: 20px;
+  font-weight: 300;
+  color: #666;
+}
+blockquote:before {
+  content: "\201C";
+  position: absolute;
+  top: 0em;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  width: 3rem;
+  height: 2rem;
+  color: #666;
+  text-align: center;
+}
+blockquote:after {
+  content: "\2013 \2003"attr(cite);
+  display: block;
+  text-align: right;
+  font-size: 0.875em;
+  color: #e74c3c;
+}
 
 /*********************************
 3. Header
@@ -410,9 +441,6 @@ section {
   width: 100%;
   padding-bottom: 16px;
 }
-.main_nav_container > div:not(:nth-child(2)) {
-  width: calc((100% - 310px) / 2);
-}
 .main_nav ul li:not(:last-of-type) {
   margin-right: 38px;
 }
@@ -430,7 +458,7 @@ section {
   display: none;
 }
 .logo_container {
-  width: 310px;
+  width: 210px;
   margin-right: 0px;
   top: 85px;
 }
@@ -905,6 +933,17 @@ section {
 .active.accordion-header::before {
   background-color: #fc6468;
 }
+
+/*********************************
+  10. about
+  *********************************/
+.highlights > div {
+  margin: 50px 0;
+}
+.highlights {
+  max-width: 90%;
+}
+
 /*********************************
   10. Standings
   *********************************/
@@ -1065,13 +1104,12 @@ tr.odd {
 .footer_logo {
   margin-left: -6px;
 }
-.footer_contact_info {
-  padding-top: 93px;
-  padding-bottom: 113px;
+
+.footer_container .row {
+  padding: 60px 0 50px;
 }
 .footer_contact_list {
   padding-left: 12px;
-  margin-top: 38px;
 }
 .footer_contact_list ul li {
   padding-right: 10px;
@@ -1094,10 +1132,22 @@ tr.odd {
 .footer_contact_list ul li:not(:last-of-type) {
   margin-bottom: 23px;
 }
-.newsletter {
-  padding-top: 168px;
-  padding-bottom: 113px;
+.footer_quick_links li {
+  font-size: 16px;
+  padding: 5px 0;
 }
+.footer_quick_links ul {
+  padding-top: 15px;
+}
+
+.footer_quick_links li a {
+  color: #fff;
+}
+
+.footer_quick_links li a:hover {
+  color: #ffa54b;
+}
+
 .newsletter_title {
   font-size: 24px;
   font-weight: 500;

@@ -12,10 +12,11 @@
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/owl.theme.default.css">
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/animate.css">
 <link rel="stylesheet" type="text/css" href="styles/common.css">
-<link rel="stylesheet" type="text/css" href="styles/team.css">
-<link rel="stylesheet" type="text/css" href="styles/team_responsive.css">
-</head>
-<body>
+<link rel="stylesheet" type="text/css" href="styles/about.css">
+<link rel="stylesheet" type="text/css" href="styles/about_responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/common-responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/common-responsive.css">
+</head><body>
 
 <div class="super_container">
 	
@@ -42,10 +43,10 @@
 													</a>
 												</div>
 												<div class="logo_container">
-													<div class="trans_400"><a href="#"><img src="images/logo.png" alt=""></a></div>
+													<div class="trans_400"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
 												</div>
 												<ul class="d-flex flex-row nav-menu">
-													<li><a href="index.html">home</a></li>
+													<li ><a href="index.html">home</a></li>
 													<li><a href="schedule.html">Schedule</a></li>
 													<li><a href="#">Scoreboard</a></li>
 													<li><a href="#">Clubs</a></li>
@@ -57,7 +58,8 @@
 											
 												</div>
 									</nav>
-							<div class="hamburger">
+							
+									<div class="hamburger">
 								<i class="fa fa-bars trans_200"></i>
 							</div>
 						</div>
@@ -116,17 +118,17 @@
 				<div class="menu_user_area">
 					<ul class="d-flex flex-row align-items-start justify-content-end">
 						<li><a href="register.html">Sign up</a></li>
-						<li><a href="register.html">Sign in</a></li>
+											<li><a href="register.html">Sign in</a></li>
 					</ul>
 				</div>
 				<nav class="menu_nav">
 					<ul class="text-right">
-						<li><a href="index.html">home</a></li>
-						<li><a href="schedule.html">Schedule</a></li>
-						<li><a href="scoreboard.html">Scoreboard</a></li>
-						<li><a href="clubs.html">Clubs</a></li>
-						<li><a href="blog.html">News</a></li>
-						<li><a href="contact.html">Contact</a></li>
+						<li class="active"><a href="index.html">home</a></li>
+											<li><a href="schedule.html">Schedule</a></li>
+											<li><a href="scoreboard.html">Scoreboard</a></li>
+											<li><a href="clubs.html">Clubs</a></li>
+											<li><a href="blog.html">News</a></li>
+											<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</nav>
 				<div class="menu_links">
@@ -142,304 +144,243 @@
 	<!-- Home -->
 
 	<div class="home d-flex flex-column align-items-start justify-content-end">
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/team_page.jpg" data-speed="0.8"></div>
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/about.jpg" data-speed="0.8"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col text-center">
-					<div class="home_text">The <span>Games</span></div>
+					<div class="home_text">About <span>the team</span></div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<!-- Schedule -->
+	<!-- About -->
 
-	<div class="schedule">
+	<div class="about">
+		<div class="container">
+			<div class="row">
+				
+				<!-- About Image -->
+				<div class="col-xl-6 order-xl-1 order-2">
+					<div class="about_image">
+						<div class="background_image" style="background-image:url(images/team1.jpg)"></div>
+						<img src="images/team1.jpg" alt="">
+					</div>
+				</div>
+
+				<!-- About content -->
+				<div class="col-xl-6 order-xl-2 order-1">
+					<div class="about_content">
+						<div class="about_content_container">
+							<div class="section_title_container">
+								<div class="section_title"><h1>Leadership</h1></div>
+							</div>
+							<div class="about_title">John Newman</div>
+							<div class="about_subtitle">President & Chief Administrative Officer
+
+								</div>
+							<div class="about_text">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan dolor id enim lacinia, sed feugiat ex suscipit. Nunc molestie malesuada pellentesque. Quisque mattis ante ut nisl tristique ornare. Aenean interdum dictum augue, quis egestas erat lacinia in. Proin dictum commodo nulla ut mattis. Pellentesque vel commodo nisi. Donec eget purus eget ex efficitur tristique. Nulla ut mollis justo.</p>
+								<p>Nam turpis nulla, ullamcorper volutpat faucibus ut, facilisis in elit. Nam blandit diam vel felis porta, vitae congue nulla feugiat. Vestibulum rhoncus odio elit, at aliquet sem posuere vel.</p>
+							</div>
+							<div class="button about_button"><a href="#">See More Info</a></div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Team -->
+
+	<div class="team">
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<div class="section_title_container">
-						<div class="section_title"><h1>weekly schedule</h1></div>
-						<div class="section_subtitle">Respect for the game</div>
+					<div class="section_title_container text-center">
+						<div class="section_title"><h1>meet the team</h1></div>
+						
 					</div>
 				</div>
 			</div>
-			<div class="row schedule_row">
+			<div class="row team_large_row">
 				
-				<!-- Schedule List -->
+				<!-- Team Item -->
 				<div class="col-lg-4">
-					<div class="schedule_container schedule_a">
-						<div class="schedule_title_bar d-flex flex-row align-items-center justify-content-between">
-							<div class="schedule_team_name">Senior TEAM</div>
-							<div class="schedule_icon"><img src="images/icon_5.svg" alt=""></div>
-							<div class="schedule_location">main field</div>
-						</div>
-						<div class="schedule_list">
-							<ul>
-								<li class="d-flex flex-row align-items-start justify-content-start">
-									<div>monday</div>
-									<div class="ml-auto">06pm - 08pm</div>
-								</li>
-								<li class="d-flex flex-row align-items-start justify-content-start">
-									<div>tuesday</div>
-									<div class="ml-auto">06pm - 08pm</div>
-								</li>
-								<li class="d-flex flex-row align-items-start justify-content-start">
-									<div>wednesday</div>
-									<div class="ml-auto">06pm - 08pm</div>
-								</li>
-								<li class="d-flex flex-row align-items-start justify-content-start">
-									<div>thursday</div>
-									<div class="ml-auto">06pm - 08pm</div>
-								</li>
-								<li class="d-flex flex-row align-items-start justify-content-start">
-									<div>friday</div>
-									<div class="ml-auto">06pm - 08pm</div>
-								</li>
-								<li class="d-flex flex-row align-items-start justify-content-start">
-									<div>saturday</div>
-									<div class="ml-auto">06pm - 08pm</div>
-								</li>
-							</ul>
+					<div class="team_large">
+						<div class="team_large_image"><img src="images/team_large_1.jpg" alt=""></div>
+						<div class="team_large_content text-center">
+							<div class="team_large_name"><a href="#">Michael Smith</a></div>
+							<div class="team_large_title">CHIEF TECHNOLOGY OFFICER
+								</div>
+							<div class="team_large_text">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan dolor id enim lacinia, sed feugiat ex suscipit.</p>
+							</div>
+							<div class="team_large_history"><span>Past teams: </span><a href="#">Panthers</a>, <a href="#">The Cougars</a></div>
 						</div>
 					</div>
 				</div>
 
-				<!-- Schedule List -->
+				<!-- Team Item -->
 				<div class="col-lg-4">
-					<div class="schedule_container schedule_b">
-						<div class="schedule_title_bar d-flex flex-row align-items-center justify-content-between">
-							<div class="schedule_team_name">Junior TEAM</div>
-							<div class="schedule_icon"><img src="images/icon_5.svg" alt=""></div>
-							<div class="schedule_location">main field</div>
-						</div>
-						<div class="schedule_list">
-							<ul>
-								<li class="d-flex flex-row align-items-start justify-content-start">
-									<div>monday</div>
-									<div class="ml-auto">06pm - 08pm</div>
-								</li>
-								<li class="d-flex flex-row align-items-start justify-content-start">
-									<div>tuesday</div>
-									<div class="ml-auto">06pm - 08pm</div>
-								</li>
-								<li class="d-flex flex-row align-items-start justify-content-start">
-									<div>wednesday</div>
-									<div class="ml-auto">06pm - 08pm</div>
-								</li>
-								<li class="d-flex flex-row align-items-start justify-content-start">
-									<div>thursday</div>
-									<div class="ml-auto">06pm - 08pm</div>
-								</li>
-								<li class="d-flex flex-row align-items-start justify-content-start">
-									<div>friday</div>
-									<div class="ml-auto">06pm - 08pm</div>
-								</li>
-								<li class="d-flex flex-row align-items-start justify-content-start">
-									<div>saturday</div>
-									<div class="ml-auto">06pm - 08pm</div>
-								</li>
-							</ul>
+					<div class="team_large">
+						<div class="team_large_image"><img src="images/team_large_2.jpg" alt=""></div>
+						<div class="team_large_content text-center">
+							<div class="team_large_name"><a href="#">Chris Parker</a></div>
+							<div class="team_large_title">Chief Financial Officer</div>
+							<div class="team_large_text">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan dolor id enim lacinia, sed feugiat ex suscipit.</p>
+							</div>
+							<div class="team_large_history"><span>Past teams: </span><a href="#">The Jaguars</a></div>
 						</div>
 					</div>
 				</div>
 
-				<!-- Schedule List -->
+				<!-- Team Item -->
 				<div class="col-lg-4">
-					<div class="schedule_container schedule_a">
-						<div class="schedule_title_bar d-flex flex-row align-items-center justify-content-between">
-							<div class="schedule_team_name">Youth TEAM</div>
-							<div class="schedule_icon"><img src="images/icon_5.svg" alt=""></div>
-							<div class="schedule_location">main field</div>
-						</div>
-						<div class="schedule_list">
-							<ul>
-								<li class="d-flex flex-row align-items-start justify-content-start">
-									<div>monday</div>
-									<div class="ml-auto">06pm - 08pm</div>
-								</li>
-								<li class="d-flex flex-row align-items-start justify-content-start">
-									<div>tuesday</div>
-									<div class="ml-auto">06pm - 08pm</div>
-								</li>
-								<li class="d-flex flex-row align-items-start justify-content-start">
-									<div>wednesday</div>
-									<div class="ml-auto">06pm - 08pm</div>
-								</li>
-								<li class="d-flex flex-row align-items-start justify-content-start">
-									<div>thursday</div>
-									<div class="ml-auto">06pm - 08pm</div>
-								</li>
-								<li class="d-flex flex-row align-items-start justify-content-start">
-									<div>friday</div>
-									<div class="ml-auto">06pm - 08pm</div>
-								</li>
-								<li class="d-flex flex-row align-items-start justify-content-start">
-									<div>saturday</div>
-									<div class="ml-auto">06pm - 08pm</div>
-								</li>
-							</ul>
+					<div class="team_large">
+						<div class="team_large_image"><img src="images/team_large_3.jpg" alt=""></div>
+						<div class="team_large_content text-center">
+							<div class="team_large_name"><a href="#">George Williams</a></div>
+							<div class="team_large_title">Executive Vice President</div>
+							<div class="team_large_text">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan dolor id enim lacinia, sed feugiat ex suscipit.</p>
+							</div>
+							<div class="team_large_history"><span>Past teams: </span><a href="#">The Stars</a></div>
 						</div>
 					</div>
 				</div>
 
 			</div>
-		</div>
-	</div>
-
-	<!-- Upcoming & Latest -->
-
-	<div class="upcoming_latest">
-		<div class="container">
-			<div class="row">
-				<!-- Upcoming Events -->
-				<div class="col-xl-6">
-					<div class="section_title_container">
-						<div class="section_title light"><h1>upcoming events</h1></div>
-						<div class="section_subtitle">What's next this month</div>
-					</div>
-					<div class="custom_list_a">
-						<div class="upcoming_image"><img src="images/football_player.png" alt=""></div>
-						<ul>
-							<li class="d-flex flex-row align-items-center justify-content-start">
-								<div class="custom_list_image"><img src="images/upcoming_1.jpg" alt=""></div>
-								<div class="custom_list_title_container">
-									<div class="custom_list_title"><a href="#">New T-shirts launch</a></div>
-									<div class="custom_list_date">August 25, 2018 / 17 UTC</div>
-								</div>
-								<div class="custom_list_link ml-auto"><a href="#">See More</a></div>
-							</li>
-							<li class="d-flex flex-row align-items-center justify-content-start">
-								<div class="custom_list_image"><img src="images/upcoming_2.jpg" alt=""></div>
-								<div class="custom_list_title_container">
-									<div class="custom_list_title"><a href="#">Team presentation</a></div>
-									<div class="custom_list_date">August 25, 2018 / 17 UTC</div>
-								</div>
-								<div class="custom_list_link ml-auto"><a href="#">See More</a></div>
-							</li>
-							<li class="d-flex flex-row align-items-center justify-content-start">
-								<div class="custom_list_image"><img src="images/upcoming_3.jpg" alt=""></div>
-								<div class="custom_list_title_container">
-									<div class="custom_list_title"><a href="#">Press Conference</a></div>
-									<div class="custom_list_date">August 25, 2018 / 17 UTC</div>
-								</div>
-								<div class="custom_list_link ml-auto"><a href="#">See More</a></div>
-							</li>
-							<li class="d-flex flex-row align-items-center justify-content-start">
-								<div class="custom_list_image"><img src="images/upcoming_4.jpg" alt=""></div>
-								<div class="custom_list_title_container">
-									<div class="custom_list_title"><a href="#">New T-shirts launch</a></div>
-									<div class="custom_list_date">August 25, 2018 / 17 UTC</div>
-								</div>
-								<div class="custom_list_link ml-auto"><a href="#">See More</a></div>
-							</li>
-						</ul>
+			<div class="row team_small_row">
+				
+				<!-- Team Item -->
+				<div class="col-xl-2 col-md-4 col-sm-6">
+					<div class="team_small d-flex flex-sm-column flex-row align-items-center justify-content-sm-center justify-content-start">
+						<div class="team_small_image"><a href="#"><img src="images/team_small_1.jpg" alt=""></a></div>
+						<div class="team_small_content text-sm-center">
+							<div class="team_small_name"><a href="#">Paula Kay</a></div>
+							<div class="team_small_title">Marketing Manager</div>
+						</div>
 					</div>
 				</div>
 
-				<!-- Latest Games -->
-				<div class="col-xl-6 custom_lists_col">
-					<div class="section_title_container">
-						<div class="section_title light"><h1>latest games</h1></div>
-						<div class="section_subtitle">Results</div>
+				<!-- Team Item -->
+				<div class="col-xl-2 col-md-4 col-sm-6">
+					<div class="team_small d-flex flex-sm-column flex-row align-items-center justify-content-sm-center justify-content-start">
+						<div class="team_small_image"><a href="#"><img src="images/team_small_2.jpg" alt=""></a></div>
+						<div class="team_small_content text-sm-center">
+							<div class="team_small_name"><a href="#">Sam Dean</a></div>
+							<div class="team_small_title">Project Manager</div>
+						</div>
 					</div>
-					<div class="custom_list_b">
-						<ul>
-							<li class="d-flex flex-row align-items-center justify-content-start">
-								<div class="d-flex flex-row align-items-center justify-content-start">
-									<div class="team_logo d-flex flex-column align-items-center justify-content-center"><img src="images/logo_1.png" alt=""></div>
-									<div class="team_name"><a href="#">The Alligators</a></div>
-								</div>
-								<div class="text-center">
-									<div>Football League</div>
-									<div>8 : 3</div>
-									<div>August 25, 2018 / 17 UTC</div>
-								</div>
-								<div class="d-flex flex-row align-items-center justify-content-end">
-									<div class="team_name text-right"><a href="#">The Tigers</a></div>
-									<div class="team_logo d-flex flex-column align-items-center justify-content-center"><img src="images/logo_2.png" alt=""></div>
-								</div>
-							</li>
-							<li class="d-flex flex-row align-items-center justify-content-start">
-								<div class="d-flex flex-row align-items-center justify-content-start">
-									<div class="team_logo d-flex flex-column align-items-center justify-content-center"><img src="images/logo_2.png" alt=""></div>
-									<div class="team_name"><a href="#">The Alligators</a></div>
-								</div>
-								<div class="text-center">
-									<div>Football League</div>
-									<div>8 : 3</div>
-									<div>August 25, 2018 / 17 UTC</div>
-								</div>
-								<div class="d-flex flex-row align-items-center justify-content-end">
-									<div class="team_name text-right"><a href="#">The Eagles</a></div>
-									<div class="team_logo d-flex flex-column align-items-center justify-content-center"><img src="images/logo_4.png" alt=""></div>
-								</div>
-							</li>
-							<li class="d-flex flex-row align-items-center justify-content-start">
-								<div class="d-flex flex-row align-items-center justify-content-start">
-									<div class="team_logo d-flex flex-column align-items-center justify-content-center"><img src="images/logo_3.png" alt=""></div>
-									<div class="team_name"><a href="#">Denver Pumas</a></div>
-								</div>
-								<div class="text-center">
-									<div>Football League</div>
-									<div>8 : 3</div>
-									<div>August 25, 2018 / 17 UTC</div>
-								</div>
-								<div class="d-flex flex-row align-items-center justify-content-end">
-									<div class="team_name text-right"><a href="#">The Tigers</a></div>
-									<div class="team_logo d-flex flex-column align-items-center justify-content-center"><img src="images/logo_2.png" alt=""></div>
-								</div>
-							</li>
-							<li class="d-flex flex-row align-items-center justify-content-start">
-								<div class="d-flex flex-row align-items-center justify-content-start">
-									<div class="team_logo d-flex flex-column align-items-center justify-content-center"><img src="images/logo_2.png" alt=""></div>
-									<div class="team_name"><a href="#">The Tigers</a></div>
-								</div>
-								<div class="text-center">
-									<div>Football League</div>
-									<div>8 : 3</div>
-									<div>August 25, 2018 / 17 UTC</div>
-								</div>
-								<div class="d-flex flex-row align-items-center justify-content-end">
-									<div class="team_name text-right"><a href="#">The Eagles</a></div>
-									<div class="team_logo d-flex flex-column align-items-center justify-content-center"><img src="images/logo_4.png" alt=""></div>
-								</div>
-							</li>
-						</ul>
+				</div>
+
+				<!-- Team Item -->
+				<div class="col-xl-2 col-md-4 col-sm-6">
+					<div class="team_small d-flex flex-sm-column flex-row align-items-center justify-content-sm-center justify-content-start">
+						<div class="team_small_image"><a href="#"><img src="images/team_small_3.jpg" alt=""></a></div>
+						<div class="team_small_content text-sm-center">
+							<div class="team_small_name"><a href="#">Michael Doe</a></div>
+							<div class="team_small_title">Media Coordinator</div>
+						</div>
 					</div>
+				</div>
+
+				<!-- Team Item -->
+				<div class="col-xl-2 col-md-4 col-sm-6">
+					<div class="team_small d-flex flex-sm-column flex-row align-items-center justify-content-sm-center justify-content-start">
+						<div class="team_small_image"><a href="#"><img src="images/team_small_4.jpg" alt=""></a></div>
+						<div class="team_small_content text-sm-center">
+							<div class="team_small_name"><a href="#">Paul Kay</a></div>
+							<div class="team_small_title">Web Developer</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Team Item -->
+				<div class="col-xl-2 col-md-4 col-sm-6">
+					<div class="team_small d-flex flex-sm-column flex-row align-items-center justify-content-sm-center justify-content-start">
+						<div class="team_small_image"><a href="#"><img src="images/team_small_5.jpg" alt=""></a></div>
+						<div class="team_small_content text-sm-center">
+							<div class="team_small_name"><a href="#">Daisy Joe</a></div>
+							<div class="team_small_title">Assistant Accountant</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Team Item -->
+				<div class="col-xl-2 col-md-4 col-sm-6">
+					<div class="team_small d-flex flex-sm-column flex-row align-items-center justify-content-sm-center justify-content-start">
+						<div class="team_small_image"><a href="#"><img src="images/team_small_6.jpg" alt=""></a></div>
+						<div class="team_small_content text-sm-center">
+							<div class="team_small_name"><a href="#">Patricia Kay</a></div>
+							<div class="team_small_title">Security Lead</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="col text-center">
+					<div class="button team_button"><a href="#">See the team</a></div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<!-- Info -->
+	<!-- Testimonials -->
 
-	<div class="info">
+	<div class="testimonials">
+		<div class="parallax_background" data-image-src="images/testimonials.jpg"></div>
+		<div class="test_overlay"></div>
 		<div class="container">
 			<div class="row">
+				<div class="col">
+					<div class="section_title_container text-center">
+						<div class="section_title"><h1>testimonials</h1></div>
+						<div class="section_subtitle">The Fans</div>
+					</div>
+					<div class="testimonials_slider_container">
+						<div class="owl-carousel owl-theme test_slider">
+							
+							<!-- Slide -->
+							<div>
+								<div class="test_item text-center">
+									<div class="test_text">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan dolor id enim lacinia, sed feugiat ex suscipit. Nunc molestie malesuada pellentesque. Quisque mattis ante ut nisl tristique ornare. Aenean interdum dictum augue, quis egestas erat lacinia in. Proin dictum commodo nulla ut mattis. Pellentesque vel commodo nisi. Donec eget purus eget ex efficitur tristique. Nulla ut mollis justo.</p>
+									</div>
+									<div class="test_image"><img src="images/test_1.jpg" alt=""></div>
+									<div class="test_name"><a href="#">Michael</a><span>, Superfan</span></div>
+								</div>
+							</div>
 
-				<!-- Info Image -->
-				<div class="col-lg-6 order-lg-1 order-2">
-					<div class="info_image">
-						<div class="background_image" style="background-image:url(images/info.jpg)"></div>
-						<img src="images/info.jpg" alt="">
+							<!-- Slide -->
+							<div>
+								<div class="test_item text-center">
+									<div class="test_text">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan dolor id enim lacinia, sed feugiat ex suscipit. Nunc molestie malesuada pellentesque. Quisque mattis ante ut nisl tristique ornare. Aenean interdum dictum augue, quis egestas erat lacinia in. Proin dictum commodo nulla ut mattis. Pellentesque vel commodo nisi. Donec eget purus eget ex efficitur tristique. Nulla ut mollis justo.</p>
+									</div>
+									<div class="test_image"><img src="images/test_1.jpg" alt=""></div>
+									<div class="test_name"><a href="#">Michael</a><span>, Superfan</span></div>
+								</div>
+							</div>
+
+							<!-- Slide -->
+							<div>
+								<div class="test_item text-center">
+									<div class="test_text">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan dolor id enim lacinia, sed feugiat ex suscipit. Nunc molestie malesuada pellentesque. Quisque mattis ante ut nisl tristique ornare. Aenean interdum dictum augue, quis egestas erat lacinia in. Proin dictum commodo nulla ut mattis. Pellentesque vel commodo nisi. Donec eget purus eget ex efficitur tristique. Nulla ut mollis justo.</p>
+									</div>
+									<div class="test_image"><img src="images/test_1.jpg" alt=""></div>
+									<div class="test_name"><a href="#">Michael</a><span>, Superfan</span></div>
+								</div>
+							</div>
+							
+						</div>
 					</div>
 				</div>
-
-				<!-- Info Content -->
-				<div class="col-lg-6 order-lg-2 order-1">
-					<div class="info_content">
-						<div class="section_title_container">
-							<div class="section_title"><h1>this week schedule</h1></div>
-							<div class="section_subtitle">Respect for the game</div>
-						</div>
-						<div class="info_text">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan dolor id enim lacinia, sed feugiat ex suscipit. Nunc molestie malesuada pellentesque. Quisque mattis ante ut nisl tristique ornare. Aenean interdum dictum augue, quis egestas erat lacinia in. Proin dictum commodo nulla ut mattis. Pellentesque vel commodo nisi. Donec eget purus eget ex efficitur tristique. Nulla ut mollis justo.</p>
-						</div>
-						<div class="button info_button"><a href="#">See More Info</a></div>
-					</div>
-				</div>
-
 			</div>
 		</div>
 	</div>
@@ -465,26 +406,23 @@
 			<div class="footer_container">
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-5 order-lg-1 order-3">
-								<div class="footer_contact_info">
-								<div class="footer_contact_list">
+						<div class="col-lg-3 order-lg-1 order-3">
+								<div class="footer_quick_info">
+								<div class="footer_quick_links">
+									<div class="newsletter_title">Quick Links </div>
 									<ul>
-										<li class="d-flex flex-row align-items-start justify-content-start">
-										<a href="#">	Home</a>
-											</li>
-										<li class="d-flex flex-row align-items-start justify-content-start">
-												<a href="faqs.html"> FAQs</a>
-										</li>
-										<li class="d-flex flex-row align-items-start justify-content-start">
-												<a href="#">	Contact</a>
-										</li>
+										<li><a href="faqs.html">FAQs</a></li>
+										<li><a href="team.html">The team</a></li>
+										<li><a href="about.html">About</a></li>
+										<li><a href="#">Privacy Policy</a></li>
+										
 									</ul>
 								</div>
 								
 	
 							</div>
 						</div>
-						<div class="col-lg-3 order-lg-2 order-1">
+						<div class="col-lg-4 order-lg-2 order-1">
 							<div class="footer_contact_info">
 								
 								<div class="footer_contact_list">
@@ -505,7 +443,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-4 order-lg-3 order-2">
+						<div class="col-lg-5 order-lg-3 order-2">
 							<div class="newsletter">
 								<div class="newsletter_title">Subscribe to newsletter</div>
 								<div class="newsletter_form_container">
@@ -535,8 +473,9 @@
 								<nav class="footer_nav ml-md-auto order-md-2 order-1">
 									<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
 										<li><a href="index.html">Home</a></li>
-										<li><a href="team.html">The Team</a></li>
-										<li><a href="#">Tickets</a></li>
+										<li><a href="schedule.html">Schedule</a></li>
+										<li><a href="scoreboard.html">Scoreboard</a></li>
+										<li><a href="clubs.html">Clubs</a></li>
 										<li><a href="blog.html">News</a></li>
 										<li><a href="contact.html">Contact</a></li>
 									</ul>
@@ -547,20 +486,16 @@
 				</div>
 			</div>
 		</footer>
-	</div>
+	
+</div>
 
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="styles/bootstrap-4.1.2/popper.js"></script>
 <script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
-<script src="plugins/greensock/TweenMax.min.js"></script>
-<script src="plugins/greensock/TimelineMax.min.js"></script>
 <script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
 <script src="plugins/greensock/animation.gsap.min.js"></script>
-<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
 <script src="plugins/OwlCarousel2-2.3.4/owl.carousel.js"></script>
-<script src="plugins/easing/easing.js"></script>
-<script src="plugins/progressbar/progressbar.min.js"></script>
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
-<script src="js/team.js"></script>
+<script src="js/about.js"></script>
 </body>
 </html>

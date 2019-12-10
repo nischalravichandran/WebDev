@@ -84,11 +84,8 @@
   color: #ffffff;
   margin-top: 15px;
 }
-.contact_button a {
-  display: block;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 58px;
+.contact_button:hover::after {
+  height: 20%;
 }
 .contact_image {
   height: 100%;
